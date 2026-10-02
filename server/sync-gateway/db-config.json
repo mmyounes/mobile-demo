@@ -1,0 +1,18 @@
+{
+  "bucket": "mobile_sync",
+  "scopes": {
+    "mainscope": {
+      "collections": {
+        "users": {
+          "sync": "function (doc, oldDoc, meta) {\nchannel(\"users\");\n}"
+        },
+        "shared": {
+          "sync": "function (doc, oldDoc, meta) {\nchannel(\"shared\");\n}"
+        }
+      }
+    }
+  },
+  "index": {
+    "num_replicas": 1
+  }
+}

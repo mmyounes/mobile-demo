@@ -1,0 +1,19 @@
+{
+  "bootstrap": {
+    "server": "couchbase://YOUR_CB_SERVER_HOST",
+    "username": "sgadmin",
+    "password": "YOUR_SGADMIN_PASSWORD",
+    "use_tls_server": false
+  },
+  "api": {
+    "public_interface": "0.0.0.0:4984",
+    "admin_interface": "127.0.0.1:4985",
+    "metrics_interface": "127.0.0.1:4986"
+  },
+  "logging": {
+    "console": {
+      "log_level": "info",
+      "log_keys": ["HTTP", "Sync", "Import"]
+    }
+  }
+}

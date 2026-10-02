@@ -1,0 +1,10 @@
+{
+  "name": "YOUR_SGW_USERNAME",
+  "password": "YOUR_SGW_PASSWORD",
+  "collection_access": {
+    "mainscope": {
+      "users":  { "admin_channels": ["*"] },
+      "shared": { "admin_channels": ["*"] }
+    }
+  }
+}
